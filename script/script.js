@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function(e){
   lang_toggle();
+  sec1_slide();
 })
 
 
@@ -21,4 +22,24 @@ const lang_toggle = () => {
   $(document).click(function(){
     $("header .lang-div .lang-list").slideUp();
   });
+};
+const sec1_slide = () => {
+
+    var swiper = new Swiper(".sec1_swiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    loop: true,
+    loopedSlides: 3,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    speed: 1000,
+    effect: 'fade', 
+    // fadeEffect: {
+    //   crossFade: true, 
+    // },
+  });
+
 };

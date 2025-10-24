@@ -80,47 +80,9 @@ section.sec1.on .t2 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; 
 section.sec1 .t3 { opacity: 0; }
 section.sec1.on .t3 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
 
-/* sec2 */
-section .c_titleBox{ opacity: 0; }
-section.on .c_titleBox { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec2 .c_titleBox .c_title{ opacity: 0; }
-section.sec2.on .c_titleBox .c_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-
-section.sec2 .c_ul { opacity: 0; }
-section.sec2.on .c_ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
-
-
-/* sec3 */
-section.sec3 .c_titleBox .c_title{ opacity: 0; }
-section.sec3.on .c_titleBox .c_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec3 .c_ul { opacity: 0; }
-section.sec3.on .c_ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
-
-
-/* sec4 */
-section.sec4 .sec4_div{ opacity: 0; }
-section.sec4.on .sec4_div { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
-
-
-/* sec5 */
-section.sec5 .sec5_div .t1{ opacity: 0; }
-section.sec5.on .sec5_div .t1 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
-section.sec5 .sec5_div .t2{ opacity: 0; }
-section.sec5.on .sec5_div .t2 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
-section.sec5 .se5_ul{ opacity: 0; }
-section.sec5.on .se5_ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.4s; }
-
-
-/* sec6 */
-section.sec6 .sec6_title{ opacity: 0; }
-section.sec6.on .sec6_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec6 .t1{ opacity: 0; }
-section.sec6.on .t1 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
-section.sec6 .sec6_ul{ opacity: 0; }
-section.sec6.on .sec6_ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
 
 
 /* section .float_icon { transform: scale(0); } */
-section.on .float_icon{  animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite;}
+/* section.on .float_icon{  animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite;}
 section.sec6.on .float_icon1 { animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite;  }
-section.sec6.on .float_icon2 { animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite; animation-delay: 0.5; }
+section.sec6.on .float_icon2 { animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite; animation-delay: 0.5; } */
