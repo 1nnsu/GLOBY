@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     headerScrollHandler();
     bodyScroll();
     privacyUsePopup();
+    scrollMove();
 })
 document.addEventListener("scroll", function(){
     animationOnHandler();
@@ -51,6 +52,16 @@ const bodyScroll = () => {
     });
 };
   
+const scrollMove = () => {
+        /* scroll move event */
+        //scroll move 
+        $(".scroll_move").click(function(e){  
+
+            e.preventDefault();       
+            
+            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        });
+}
 const headerScrollHandler = () => {
     /* header */
     const header_main = document.querySelector('header');

@@ -69,20 +69,70 @@
     50%  { opacity: 1; }
     100% { opacity: 0; }
   }
-/* sec1 */
 
-section.sec1 .c_titleBox{ opacity: 0; }
-section.sec1.on .c_titleBox { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec1 .t1 { opacity: 0; }
-section.sec1.on .t1 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec1 .t2 { opacity: 0; }
-section.sec1.on .t2 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.1s; }
-section.sec1 .t3 { opacity: 0; }
-section.sec1.on .t3 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+
+section.sec .g_title { opacity: 0; }
+section.sec.on .g_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec .g_sub_title { opacity: 0; }
+section.sec.on .g_sub_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+/* sec1 */
+section.sec1 .sec1_slider .item .item_wrap .sec1_titie { opacity: 0; }
+section.sec1.on .sec1_slider .item .item_wrap .sec1_titie { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;}
+section.sec1 .sec1_slider .item .item_wrap .sec1_sub { opacity: 0; }
+section.sec1.on .sec1_slider .item .item_wrap .sec1_sub { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;}
+section.sec1 .sec1_slider .item .item_wrap .sec1_btn { opacity: 0; }
+section.sec1.on .sec1_slider .item .item_wrap .sec1_btn { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s;}
+
+/* sec2 */
+section.sec2 .sec2_div { opacity: 0; }
+section.sec2 .sec2_div.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+/* sec3 */
+section.sec3 .sec3_div { opacity: 0; }
+section.sec3 .sec3_div.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+/* sec4 */
+section.sec4 .sec4_div ul { opacity: 0; }
+section.sec4 .sec4_div.on ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec4 .sec4_div .sec4_text { opacity: 0; }
+section.sec4 .sec4_div.on .sec4_text { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s;  }
+
+/* sec5 */
+section.sec5 .sec5_div ul { opacity: 0; }
+section.sec5 .sec5_div.on ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec5 .sec5_div .sec5_text { opacity: 0; }
+section.sec5 .sec5_div.on .sec5_text { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s;  }
+
+/* sec6 */
+section.sec6 .sec6_div { opacity: 0; }
+section.sec6 .sec6_div.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+section.sec6 .sec6_div ul li .item3 .imgBox .stroke {  animation: blink 3s infinite; }
+section.sec6 .sec6_div ul li .item3 .imgBox .color {  animation: blink 3s infinite; animation-delay: 0.2s }
+
+/* sec7 */
+section.sec7 .sec7_div { opacity: 0; }
+section.sec7 .sec7_div.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+/* sec8 */
+section.sec8 .sec8_div ul li:nth-child(1) .item { opacity: 0;  }
+section.sec8 .sec8_div.on ul li:nth-child(1) .item { animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
+section.sec8 .sec8_div ul li:nth-child(2) .item { opacity: 0;  }
+section.sec8 .sec8_div.on ul li:nth-child(2) .item { animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.4s;  }
+section.sec8 .sec8_div ul li:nth-child(3) .item { opacity: 0;  }
+section.sec8 .sec8_div.on ul li:nth-child(3) .item { animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.5s;  }
+
+/* sec9 */
+section.sec9 .sec9_div .text_box { opacity: 0;  }
+section.sec9 .sec9_div.on .text_box { animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
+
+section.sec9 .sec9_div .img_box {  animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite; }
 
 
 
 /* section .float_icon { transform: scale(0); } */
-/* section.on .float_icon{  animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite;}
+section.on .float_icon{  animation:  float 2s ease-in-out infinite;}
 section.sec6.on .float_icon1 { animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite;  }
-section.sec6.on .float_icon2 { animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite; animation-delay: 0.5; } */
+section.sec6.on .float_icon2 { animation: pulse 600ms ease-in-out forwards, float 2s ease-in-out infinite; animation-delay: 0.5; }
