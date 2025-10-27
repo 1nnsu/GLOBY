@@ -80,10 +80,10 @@ header .lang-div .lang-list a{ padding:5px 10px; flex-grow: 1; display: flex; al
 }
 
 /* header */
-header{ padding: 20px 0; position: fixed; z-index: 999; left: 0; top: 0; width: 100%; }
+header{  position: fixed; z-index: 999; left: 0; top: 0; width: 100%; }
 header.on { background-color: #fff; }
 header.on .header-container nav ul li { color: var(--black-color); }
-header .header-container {  }
+header .header-container { padding: 20px 0; }
 header .header-container .inner { display: flex; align-items: center; justify-content: space-between; }
 header .header-container .logo {  }
 header .header-container nav {  }
@@ -92,7 +92,7 @@ header .header-container nav ul li { font-size: 16px; color: var(--white-color);
 ul li .list4 { display: flex; align-items: center; gap: 5px; justify-content: center; }
 
 @media screen and (max-width: 650px) { 
-    header { padding: 10px 0; }
+    header .header-container { padding: 10px 0; }
     header.on .header-container .logo { display: none; }
     header.on .header-container .inner { gap: 0; }
     header .header-container .inner { flex-direction: column; gap: 10px; }
@@ -437,6 +437,7 @@ section.sec6 .sec6_div ul li .item4 .container .content .normal_box { font-size:
 
 /* sec7 */
 section.sec7 {  }
+section.sec7 .g_sub_title { margin: unset; }
 section.sec7 .sec7_div {  }
 section.sec7 .g_title_box.wh .g_title { margin: unset; }
 section.sec7 .sec7_div ul { width: calc(100% + 20px); margin-left: -10px; display: flex; flex-wrap: wrap; } 
