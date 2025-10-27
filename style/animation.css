@@ -85,6 +85,11 @@ section.sec1.on .sec1_slider .item .item_wrap .sec1_sub { animation: fadeIn 0.5s
 section.sec1 .sec1_slider .item .item_wrap .sec1_btn { opacity: 0; }
 section.sec1.on .sec1_slider .item .item_wrap .sec1_btn { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s;}
 
+section.sec1 .sec1_slider .item .imgBox { opacity: 0; }
+section.sec1.on .sec1_slider .item .imgBox { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;}
+section.sec1 .sec1_slider .item .sec1_sub2 { opacity: 0; }
+section.sec1.on .sec1_slider .item .sec1_sub2 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+
 /* sec2 */
 section.sec2 .sec2_div { opacity: 0; }
 section.sec2 .sec2_div.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
