@@ -69,8 +69,22 @@
     50%  { opacity: 1; }
     100% { opacity: 0.2; }
   }
+@keyframes blink2 {
+    0%   { opacity: 0.5; }
+    50%  { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
+@keyframes star {
+    0%   { opacity: 0.1; }
+    50%  { opacity: 0.8; }
+    100% { opacity: 0.1; }
+  }
 
-
+section.sec1 .sec1_slider .item .imgBox .sec1_img:nth-child(1) { animation: blink2 2s infinite;  }
+section.sec1 .sec1_slider .item .imgBox .sec1_img:nth-child(2) { animation: blink2 2s infinite; animation-delay: 0.5s; }
+section.sec1 .starBox .star1 { animation: star 2s infinite; animation-delay: 0.2s; }
+section.sec1 .starBox .star2 { animation: star 2s infinite;  }
+section.sec1 .starBox .star3 { animation: star 2s infinite; animation-delay: 0.7s; }
 
 section.sec .g_title { opacity: 0; }
 section.sec.on .g_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
@@ -80,6 +94,7 @@ section.sec.on .g_sub_title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards r
 /* sec1 */
 section.sec1 .sec1_slider .item .item_wrap .sec1_titie { opacity: 0; }
 section.sec1.on .sec1_slider .item .item_wrap .sec1_titie { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;}
+/* section.sec1.on .sec1_slider .item .item_wrap .sec1_titie { animation: blink2 2s infinite; } */
 section.sec1 .sec1_slider .item .item_wrap .sec1_sub { opacity: 0; }
 section.sec1.on .sec1_slider .item .item_wrap .sec1_sub { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;}
 section.sec1 .sec1_slider .item .item_wrap .sec1_btn { opacity: 0; }
