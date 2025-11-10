@@ -30,16 +30,18 @@ const sec1_slide = () => {
       el: ".swiper-pagination",
     },
     loop: true,
-    loopedSlides: 3,
+    slidesPerView: 1,
     autoplay: {
       delay: 2000,
-      disableOnInteraction: false,
+      // disableOnInteraction: false,
     },
-    speed: 1000,
-    effect: 'fade', 
-    // fadeEffect: {
-    //   crossFade: true, 
-    // },
+    speed: 500,
+    breakpoints: {
+    500: {
+        speed: 800,
+    },
+    
+  },
   });
 
 };
