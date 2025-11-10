@@ -198,7 +198,7 @@ section.sec9 {  background: url('../img/main/sec9/bg.jpg') no-repeat center / co
 section.sec1 { padding: 0; height: 100vh;  position: relative; }
 section.sec1 .starBox { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 10; display: flex; align-items: center; justify-content: center; }
 section.sec1 .starBox .star { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
-section.sec1 .sec1_slider { width: 100%; height: 100%; }
+section.sec1 .sec1_slider { width: 100%; height: 100%; position: relative; z-index: 11; }
 section.sec1 .sec1_slider .sec1_swiper { position: relative; }
 section.sec1 .sec1_slider .sec1_swiper .swiper-wrapper  {  }
 section.sec1 .sec1_slider .sec1_swiper .swiper-slide { width: 100% !important; height: 100vh !important; position: relative; } 
@@ -211,7 +211,7 @@ section.sec1 .swiper-pagination-bullet { width: 9px; height: 9px; border-radius:
 section.sec1 .swiper-pagination-bullet-active { width: 14px; height: 14px; background: var(--main-color) !important; }
 section.sec1 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { background: var(--white-color); opacity: 1;  }
 
-section.sec1 .sec1_slider .item { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+section.sec1 .sec1_slider .item { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; position: relative; z-index: 11; }
 section.sec1 .sec1_slider .item .item_wrap {  }
 section.sec1 .sec1_slider .item .item_wrap .sec1_titie { font-size: 80px; font-weight: 700; background: linear-gradient(90deg, #FFF 0%, #3D84FF 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 4px 4px 0 rgba(255, 255, 255, 0.10); margin: 0 auto; text-align: center; }
 section.sec1 .sec1_slider .item .item_wrap .sec1_sub { width: fit-content; padding: 10px 30px; font-size: 32px; color: var(--white-color); background: var(--main-color); text-align: center; border-radius: 100px; margin: 30px auto 60px; }
