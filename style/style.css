@@ -195,18 +195,18 @@ section.sec9 {  background: url('../img/main/sec9/bg.jpg') no-repeat center / co
 }
 
 /* sec1 */
-section.sec1 { padding: 0; height: 100vh; position: relative; }
+section.sec1 { padding: 0; height: 100vh;  position: relative; }
 section.sec1 .starBox { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 10; display: flex; align-items: center; justify-content: center; }
 section.sec1 .starBox .star { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); }
 section.sec1 .sec1_slider { width: 100%; height: 100%; }
 section.sec1 .sec1_slider .sec1_swiper { position: relative; }
 section.sec1 .sec1_slider .sec1_swiper .swiper-wrapper  {  }
-section.sec1 .sec1_slider .sec1_swiper .swiper-slide { width: 100% !important; height: 100vh !important; } 
+section.sec1 .sec1_slider .sec1_swiper .swiper-slide { width: 100% !important; height: 100vh !important; position: relative; } 
 section.sec1 .sec1_slider .sec1_swiper .swiper-slide.s1 { background: url('../img/main/sec1/slide1.jpg') no-repeat center / cover; } 
 section.sec1 .sec1_slider .sec1_swiper .swiper-slide.s2 { background: url('../img/main/sec1/slide2.jpg') no-repeat center / cover; } 
 section.sec1 .sec1_slider .sec1_swiper .swiper-slide.s3 { background: url('../img/main/sec1/slide3.jpg') no-repeat center / cover; } 
 
-section.sec1 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction { width: fit-content; bottom: 180px ; background: rgba(255, 255, 255, 0.20); padding: 10px 20px; border-radius: 100px; left: 50%; transform: translate(-50%); display: flex; align-items: center; justify-content: center; gap: 10px;}
+section.sec1 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction { width: fit-content; bottom: 10% ; background: rgba(255, 255, 255, 0.20); padding: 10px 20px; border-radius: 100px; left: 50%; transform: translate(-50%); display: flex; align-items: center; justify-content: center; gap: 10px;}
 section.sec1 .swiper-pagination-bullet { width: 9px; height: 9px; border-radius: 50%; }
 section.sec1 .swiper-pagination-bullet-active { width: 14px; height: 14px; background: var(--main-color) !important; }
 section.sec1 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { background: var(--white-color); opacity: 1;  }

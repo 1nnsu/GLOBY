@@ -60,14 +60,14 @@ const scrollMove = () => {
 
             e.preventDefault();       
             
-            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 200);
         });
 }
 const scrollHeader = () => {
         $(".scroll_move").click(function(e){  
         var header_height = $('header').outerHeight(true);
         e.preventDefault();       
-        $('html,body').animate({scrollTop:$(this.hash).offset().top - header_height}, 1000);
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - header_height}, 200);
     });
 }
 const headerScrollHandler = () => {
